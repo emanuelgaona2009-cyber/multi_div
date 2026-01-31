@@ -14,8 +14,8 @@ public class Principal {
         System.out.println("Ingresa el segundo numero: ");
         int b = sc.nextInt();
         
-        /*Multi multi = new Multi();
-        System.out.println("El resultado de la multiplicación es: "+multi.res(a, b));*/
+        Multiplicacion multi = new Multiplicacion();
+        System.out.println("El resultado de la multiplicación es: "+multi.res(a, b));
         
     }
     
